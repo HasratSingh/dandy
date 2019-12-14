@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+}
+#logo-nav{
+    height: 45px;
+}
+.navbar-brand{
+    margin-left: 5%;
+}
+.navbar-nav li{
+    padding-right: 20px;
+}
+.container_class{
+    overflow: hidden;
+}
+.beer {
+    background-image:url(./images/Beers.jpg);
+    background-size:100%;
+    background-attachment:fixed;
+    min-height: 600px;
+    width: 100%;
+}
+.beer .image-container{
+    background-color: rgba(100, 100, 100, 0.9);
+    width: 100%;
+}
+.beer img{
+    width: 70%;
+    height: 600px;
+}
+.social a{
+    font-size: 2.0em;
+}
+.padding{
+    padding-top:30px;
+}
+.margin{
+    margin-bottom: 50px;
+}
+#section1{
+    padding-top: 60px;
+    display: inline-block;
+}
+#section2{
+    padding-top: 60px;
+    display: inline-block;
+    width: 100%;
+}
+#section3{
+    padding-top: 60px;
+    display: inline-block;
+    width: 100%;
+}
+.stores{
+    height:400px;
+    overflow: scroll;
+}
+#section4{
+    padding-top: 60px;
+    display: inline-block;
+    width: 100%;
+}
+#section4 img{
+    height: 650px;
+}
+#section5{
+    padding-top: 60px;
+    display: inline-block;
+    width: 100%;
+}
+.hidden{
+    display:none;
+}
+.cont:hover .hidden{ 
+    display: block;  
+}
+#section6{
+    padding-top: 60px;
+    display: inline-block;
+    width: 100%;
+}
+#section7{
+    padding-top: 60px;
+    display: inline-block;
+    width: 100%;
+}
+.width{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.width-small{
+    width: 40%;
+    margin:auto;
+}
+footer{
+    margin-top: 10rem;
+}
+ul{
+    margin-top: 30px;
+    list-style-type:none;
+    padding: 0% !important;
+}
